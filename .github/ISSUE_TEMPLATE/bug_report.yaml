@@ -2,14 +2,16 @@ name: Bug report
 description: Create a bug or crash report
 labels: ["bug"]
 body:
- title: input
+ - type: input
    Attributes:
       label: Quasar version
+      description: " "
       placeholder: 1.4.0 or commit-id
     validations:
       required: true
   - type: input
     attributes:
+    description: " "
       label: Server installed .NET version
       placeholder: .NET 6.0
   - type: dropdown
