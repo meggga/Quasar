@@ -58,7 +58,8 @@ body:
       description: The steps on how to reproduce the bug.
     validations:
       required: true
-   name: textarea
+  - type: textarea
+  id: name
     attributes:
         label: Expected behavior
       description: Describe the result that you expect to get after performing the steps.
