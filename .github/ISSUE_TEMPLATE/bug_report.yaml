@@ -2,8 +2,7 @@ name: Bug report
 description: Create a bug or crash report
 labels: ["bug"]
 body:
-  - type: input
-  id: name
+ - type: input
     attributes:
       label: Quasar version
       placeholder: 1.4.0 or commit-id
